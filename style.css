@@ -148,6 +148,9 @@ a:active{
     height: 500px;
     border: 1px solid black;
     margin-top: 30px;
+    position: relative;
+    background-image: url(../CSS\ Crash\ Course/Images/abstract.jpg);
+    background-position: center center
 }
 
 .p-box h1{
@@ -159,6 +162,21 @@ a:active{
 .p-box h2{
     position: absolute;
     bottom: 40px;
-    right: 100px;
+    left:100px;
 }
 
+.my-list li:first-child{
+        background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5){
+    background: yellow;
+}
+
+.my-list li:nth-child(even){
+    background: grey;
+}
